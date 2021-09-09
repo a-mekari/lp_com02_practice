@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>連続投入式ディスポーザー</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ここにサイト説明を入れます">
+<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/custom.css">
+
+<script type="text/javascript" src="js/openclose.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body id="top">
+
+<div id="container">
+
+<header>
+<h1 id="logo"><a href="index.html"><img src="images/.png" alt="logo"></a></h1>
+<ul id="header-nav">
+<li><a href="#"><img src="images/.png" alt="電話"></a></li>
+<li><a href="contact.html"><img src="images/icon_mail.png" alt="メール"></a></li>
+</ul>
+<!--大きな端末用（801px以上端末）メニュー-->
+<nav id="menubar">
+<ul>
+<li id="menu1"><a href="index.html">解決策</a></li>
+<li id="menu2"><a href="company.html">特徴</a></li>
+<li id="menu3"><a href="list.html">購入メリット</a></li>
+<li id="menu4"><a href="link.html">お客様の声</a></li>
+<li id="menu5"><a href="faq.html">使用方法</a></li>
+</ul>
+</nav>
+</header>
+
+<!--小さな端末用（800px以下端末）メニュー-->
+<nav id="menubar-s">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="company.html">Company</a></li>
+<li><a href="list.html">Shopping</a></li>
+<li><a href="link.html">Link</a></li>
+<li><a href="faq.html">Faq</a></li>
+</ul>
+</nav>
+
+<div class="contents">
+<div class="fs1">
+<h2 class="type1">厳選されたディスポーザーをあなたに</h2>
+<section class="sec01 wrapper">
+</section>
+<section class="sec02 wrapper ">
+    <a href=".html" class="btn02 btn-primary">お電話にて無料相談</a>
+    </section>
+
+    <section class="sec03 wrapper">
+    <a href=".html" class="btn03 btn-primary">お電話にて無料相談</a>
+    </section>
+
+    <section class="sec04 wrapper">
+    </section>
+    <section class="sec05 wrapper">
+
+    </section>
+    <section class="sec06 wrapper">
+        <a href=".html" class="btn06 btn-primary">お電話にて無料相談</a>
+    </section>
+<!-- <p><img class="" src="images/lp_01.png" alt=""></p> -->
+<!-- <p><img src="images/sample1.jpg" class="fl" alt=""></p>
+<p>左の画像には<span class="color1">class=&quot;fl&quot;</span>が指定されています。この指定をすると画像が左に回り込みます。右に回り込みさせたい場合は<span class="color1">&quot;fr&quot;</span>と指定して下さい。表示させる画像サイズはcssフォルダのstyle.cssの<span class="color1">.fr</span>や<span class="color1">.fl</span>のwidthの数値で変更できます。画像以外に指定する事もできます。</p>
+<p>上の見出しは<span class="color1">class=&quot;type1&quot;</span>に指定すると出ます。これもcssファイルで調整できます。</p>
+<p>ここのテキストは段落タグですが、文字サイズを通常より少し大きく（<span class="color1">class=&quot;fs1&quot;</span>）指定しています。段落タグごとに直接指定してもいいですが一番外側のブロックに指定（例：&lt;div <span class="color1">class=&quot;fs1&quot;</span>&gt;）すると楽です。</p> -->
+</div>
+
+</div>
+
+
+
+<p id="pagetop"><a href="#">↑</a></p>
+
+<footer>
+
+<div id="footermenu">
+<ul>
+<li><a href="#">解決策</a></li>
+
+</ul>
+<ul>
+<li><a href="#">特徴</a></li>
+
+</ul>
+<ul>
+<li><a href="#">使用方法</a></li>
+
+</ul>
+<ul>
+<li><a href="#">お悩み</a></li>
+
+</ul>
+<ul>
+<li><a href="#">購入メリット</a></li>
+
+</ul>
+</div>
+<!--/footermenu-->
+
+<small>&copy; <a href="index.html">disposer.com</a></small>
+<br>
+</footer>
+
+</div>
+<!--/container-->
+
+<!--お知らせ欄の開閉処理条件　800px以下-->
+<script type="text/javascript">
+if (OCwindowWidth() <= 800) {
+	open_close("newinfo_hdr", "newinfo");
+}
+</script>
+
+<!--メニューの３本バー-->
+<div id="menubar_hdr" class="close"><span></span><span></span><span></span></div>
+<!--メニューの開閉処理条件設定　800px以下-->
+<script type="text/javascript">
+if (OCwindowWidth() <= 800) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+</body>
+</html>
